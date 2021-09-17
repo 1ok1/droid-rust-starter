@@ -1,0 +1,2 @@
+rootProject.name = "RustNdkExample"
+include ':app'
