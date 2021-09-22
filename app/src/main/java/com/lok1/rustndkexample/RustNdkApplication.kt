@@ -11,7 +11,7 @@ class RustNdkApplication : Application() {
     }
 
     companion object {
-        private val TAG = this.javaClass.simpleName
+        private val TAG = RustNdkApplication::class.java.simpleName
         private val LIBRARY_NAME = "rust"
 
         init {

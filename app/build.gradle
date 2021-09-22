@@ -47,7 +47,6 @@ cargo {
     targets = ['arm', 'arm64', 'x86', 'x86_64']
     prebuiltToolchains = true
     verbose = true
-//    targetDirectory = 'app/libs/'
 }
 
 dependencies {
