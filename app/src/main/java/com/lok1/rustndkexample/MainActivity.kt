@@ -10,6 +10,8 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import com.lok1.rustndkexample.databinding.ActivityMainBinding
+import welcome
+
 //import greeting
 
 class MainActivity : AppCompatActivity() {
@@ -36,10 +38,9 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-//        greeting("world")
         val g = Greetings()
-        val r: String = g.sayHello("world")
-        binding.iclContentMain.textView.text = r
+        val r: String = g.sayHello("Loki")
+        binding.iclContentMain.textView.text = welcome(" Lokesh \n") + r
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

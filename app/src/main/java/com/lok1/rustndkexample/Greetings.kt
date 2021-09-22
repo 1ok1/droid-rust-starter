@@ -1,5 +1,4 @@
-package com.lok1.rustndkexample
 /** This file is used as a namespace for all the exported Rust functions. */
-//@file:JvmName("Greetings")
+@file:JvmName("Greetings")
 
-//external fun greeting(pattern: String): String?
+external fun welcome(pattern: String): String?
