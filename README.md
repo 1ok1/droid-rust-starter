@@ -206,4 +206,10 @@ Step 15: To call the function in Activtiy or fragment
         binding.iclContentMain.textView.text = welcome(" Lokesh \n") + r
 ```
 
-After Integration your result will be like the image shown in the beginning.
+Now run your application, you should be able to see a similar screen as our first image when integration is successful
+
+Refereces: 
+1. https://www.rust-lang.org/tools/install
+2. https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html
+3. https://github.com/mozilla/rust-android-gradle
+
