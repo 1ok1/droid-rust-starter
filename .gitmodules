@@ -1,0 +1,3 @@
+[submodule "droid-rs"]
+	path = droid-rs
+	url = git@github.com-1ok1:1ok1/droid-rs.git

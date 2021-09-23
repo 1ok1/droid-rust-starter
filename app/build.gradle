@@ -42,7 +42,7 @@ android {
 }
 
 cargo {
-    module  = "../rust"       // Or whatever directory contains your Cargo.toml
+    module  = "../droid-rs"       // Or whatever directory contains your Cargo.toml
     libname = "rust"          // Or whatever matches Cargo.toml's [package] name.
     targets = ['arm', 'arm64', 'x86', 'x86_64']
     prebuiltToolchains = true
