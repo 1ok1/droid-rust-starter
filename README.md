@@ -1,7 +1,7 @@
 # Droid-Rust
 Droid-Rust is a starter project for Android NDK with Rust
 
-[![Output](https://github.com/1ok1/droid-rust/blob/main/droid-ndk-starter.png?raw=true)]()
+[![Output](https://github.com/1ok1/droid-rust-starter/blob/main/droid-ndk-starter.png?raw=true)]()
 
 > Step 1: Add the Path in Zshrc or bashrc
 ```
@@ -16,7 +16,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 ```
     org.gradle.java.home=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
 ```
-
+Followed by setting the Gradle JDK to JAVA 11
+[![Output](https://github.com/1ok1/droid-rust-starter/blob/main/jvm-settings.png?raw=true)]()
 > Step 3: Install rust in your system.
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -64,7 +65,7 @@ buildscript {
 }
 ```
 
-> Step 8: In App build.gralde add Rust 
+> Step 8: In App build.gralde add Rust
 ```
 plugins {
     id 'org.mozilla.rust-android-gradle.rust-android'
@@ -199,17 +200,11 @@ For Kotlin:
 external fun welcome(pattern: String): String?
 ```
 
-Step 15: To call the function in Activtiy or fragment
+Step 15: To call the function in Activity or fragment
 ```
         val g = Greetings()
         val r: String = g.sayHello("Loki")
         binding.iclContentMain.textView.text = welcome(" Lokesh \n") + r
 ```
 
-Now run your application, you should be able to see a similar screen as our first image when integration is successful
-
-Refereces: 
-1. https://www.rust-lang.org/tools/install
-2. https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html
-3. https://github.com/mozilla/rust-android-gradle
-
+After Integration your result will be like the image shown in the beginning.
