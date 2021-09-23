@@ -202,9 +202,9 @@ external fun welcome(pattern: String): String?
 
 Step 15: To call the function in Activity or fragment
 ```
-        val g = Greetings()
-        val r: String = g.sayHello("Loki")
-        binding.iclContentMain.textView.text = welcome(" Lokesh \n") + r
+val g = Greetings()
+val r: String = g.sayHello("Loki")
+binding.iclContentMain.textView.text = welcome(" Lokesh \n") + r
 ```
 
 After Integration your result will be like the image shown in the beginning.
