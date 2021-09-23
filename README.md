@@ -1,5 +1,5 @@
 # Droid-Rust
-Droid-Rust is a starter project for Android NDK with Rust
+Droid-Rust is a starter project for Android NDK with Rust.
 
 [![Output](https://github.com/1ok1/droid-rust-starter/blob/main/droid-ndk-starter.png?raw=true)]()
 
@@ -13,6 +13,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 ```
 
 > Step 2: Create a new Android Studio Project, For people who are using Gradle 7.0.0+ Java 11 has been made mandatory either upgrade your system JAVA or install newer version of JAVA in paraller and add the PATH in gradle.properties
+
+To install jdk with AdoptOpenJDK goto https://github.com/AdoptOpenJDK/homebrew-openjdk and follow the steps provided.
 ```
     org.gradle.java.home=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
 ```
