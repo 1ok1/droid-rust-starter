@@ -1,5 +1,15 @@
 # Droid-Rust
 Droid-Rust is a starter project for Android NDK with Rust.
+If you would like to clone the project and directly start working on it follow the below steps.
+1. Clone the repo and execute the below git commands.
+    ```
+    git submodule init
+    git submodule update
+    ```
+   This will clone the submodule[Rust ndk] inside the Android project
+2. Set Gradle JDK by following step 2
+3. Sync and Run, you are good to go.
+
 
 [![Output](https://github.com/1ok1/droid-rust-starter/blob/main/droid-ndk-starter.png?raw=true)]()
 
